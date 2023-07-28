@@ -4,20 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, cv">
+    <meta name="deskription" content="Это сайт - резюме ЛМ">
+    <link rel="stylesheet" href="styles.css">
     <title>Резюме Лариса</title>
+    
 </head>
 <body>
-    <h1>Резюме Лариса</h1>
-    <img src="my.jpg" alt="мое фото" width="200">
-<hr>
-    <h2>Опыт работы</h2>
+   <div class="container">
 
-<ul>
-    <li>Курс по видео</li>
-    <li>Курс по фото</li>
-    <li>Курс по музыке</li>
-    <li>Курс по смм</li>
+<div class="info"> 
+<div class="info-text">
+    <img src="my.jpg" alt="мое фото" class="avatar">
+    <h1>Лариса Москвитина</h1>
+   
+    Работаю в СМИ и <strong>делаю спецпроекты.</strong>  Хочу делать их своими руками. 
+    Для этого <strong><em>учусь верстке.</em></strong> 
+   
+    <h3>Cписок социальных сетей</h3>
+    <a href="#">Инста</a>
+    <a href="#">ФБ</a>
+</div>
+</div>
+
+    <div class="card-1">
+    <h2>Мои хобби</h2>
+<ol class="list">
+    <li>Курсы по видео</li>
+    <li>Курсы по фото</li>
+    <li>Курсы по музыке</li>
+    <li>Курсы по смм</li>
+</ol>
+</div>
+
+<div class="card-2">
+<h2>Опыт работы</h2>
+
+<table class="table">
+      
+   <tbody>
+    <tr>
+        <td>Laridance</td>
+        <td>просто хороший человек</td>
+        <td>blogging</td>
+    </tr>
+    <tr>
+        <td>Newuser</td>
+        <td>новый пользователь VSCode</td>
+        <td>mentor</td>
+    </tr>
+      </tbody>
+  
+  
+</table>
+</div>
+
+<div class="card-3">
+<h3>Мои курсы</h3>
+<ul class="link-list">
+<li><a href="#">Курс 1</a></li>
+<li><a href="#">Курс 2</li></a></li>
 </ul>
+</div>
 
+
+
+    <form action="/" class="form">
+    <H2>Связаться со мной</H2>
+    <div class="form-row"> 
+       
+        <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" placeholder="Input your name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Your email</label>
+            <input type="email" id="email" placeholder="input your email">
+        </div>
+        <div class="form-group">
+            <label for="message">Input your message</label>
+            <textarea id="message" cols="20" rows="5" placeholder="Input your message"></textarea>
+        </div>
+        <br>
+        <input class="btn" type="submit" value="Sent!">
+    </div>
+    </form>
+    
+
+
+<div>
+
+</div>
 </body>
 </html>
